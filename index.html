@@ -289,7 +289,7 @@
 
 			<div class="printBG clearfix">
 				<a class="iconClick iconPrint" id="bindGA_print" href="#" title="打印">&nbsp;</a>
-				<a class="iconClick iconDownload" id="bindGA_download" href="http://www.chsi.com.cn/report/xueji/download.do?vcode=657054607419&amp;rid=75387705675559509656857735954921&amp;ln=cn" title="下载">&nbsp;</a>
+				<a class="iconClick iconDownload" id="bindGA_download" href="#" title="下载">&nbsp;</a>
 				<a class="iconClick iconEmail" id="showEmail" href="#" title="发送">&nbsp;</a>
 				<a class="iconClick iconXxewm" id="openxxewm" href="#" title="学信二维码">&nbsp;</a>
 				<div class="newLayer" id="emailBox">
@@ -311,7 +311,7 @@
 				<div class="newLayer" id="xxewm" title="学信二维码">
 					<span class="newLayerArrow" style="right:5px;"></span>
 					<a href="#" class="newLayerClose" title="关闭"></a>
-					<div class="alignC"><img src="http://www.chsi.com.cn/report/img/775387770e567f55595cf096568b5f773569549217.jpg" alt="学信二维码" /><br />
+					<div class="alignC"><img src="imgs/775387770e567f55595cf096568b5f773569549218.jpg" alt="学信二维码" /><br />
 						<a target="_blank" class="bindGA colorBlue" href="http://www.chsi.com.cn/xlcx/downloadxxewm.do?id=75387705675559509656857735954921&amp;ln=CN">下载</a>&nbsp;&nbsp;<a href="/xlcx/xxewm.jsp" target="_blank" class="openSample colorBlue">用途</a></div>
 				</div>
 			</div>
@@ -505,8 +505,7 @@
                 });
 
                 $("#bindGA_print").click(function(){
-                    doPrint();
-                    _gaq.push(['_trackEvent','onlinereport_xj','print','cn',1,false]);
+
                 });
                 $("#bindGA_download").click(function(){
                     _gaq.push(['_trackEvent','onlinereport_xj','download_pdf','cn',1,false]);
